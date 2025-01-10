@@ -12,6 +12,9 @@ django-crispy-forms = "2.3"
 crispy-bootstrap4 = "^2024.10"
 
 
+[tool.poetry.group.dev.dependencies]
+djlint = "^1.36.4"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
